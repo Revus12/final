@@ -1,36 +1,83 @@
 body {
     font-size: 24px;
+    background: #000000;
+    color: #fff;
 }
+
 .green {
     color: green;
 }
+
 .red {
     color: red;
 }
+
 .blue {
     color: blue;
 }
+
 li.green {
     color: green;
 }
+
 li.red {
     color: red;
 }
+
 li.blue {
     color: blue;
 }
+
 ul ol li.red {
     color: red;
 }
+
 ul ol li.green {
     color: green;
 }
+
 ul ol li.blue {
     color: blue;
 }
+
 p.italic {
     font-weight: italic;
 }
+
 p.bold {
     font-style: bold;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    color: #808000;
+}
+
+h1 {
+    color: #008080;
+}
+
+p {
+    color: #008000;
+}
+
+ol {
+    color: #008000;
 }
